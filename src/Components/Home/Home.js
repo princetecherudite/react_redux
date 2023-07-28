@@ -3,7 +3,8 @@ import img from '../../Assets/rose.jpg'
 import styles from './Home.module.css'
 // import cn from "classnames";
 
-function Home() {
+function Home(props) {
+  console.warn("props",props);
   return (
     <div>
       <div className={`${styles.addToCart}`}>
@@ -19,7 +20,7 @@ function Home() {
           <span>Price: $10000.00</span>
         </div>
         <div className={`${styles.btnWrapper} ${styles.item}`}>
-          <button>Add To Cart</button>
+          <button onClick={()=>{props.addToCartHandler({name:'rose',price:'1000'})}}>Add To Cart</button>
         </div>
       </div>
     </div>
