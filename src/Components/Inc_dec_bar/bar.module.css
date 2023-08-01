@@ -1,0 +1,51 @@
+.mainContainer {
+  margin: 0%;
+  padding: 0%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.IncDescBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.IncDescBar button {
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid black;
+    color: #fff;
+    background-color: gray;
+    padding: 0px 10px;
+}
+
+.IncDescBar span {
+    padding: 0px 10px;
+    color: #fff;
+}
+
+.boxIncDesc {
+  display: block;
+}
+
+.resetBtn{
+  display: flex;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.resetBtn button {
+  font-size: 15px;
+  width: 80%;
+  color: #fff;
+  background-color: rgb(163, 19, 27);
+  border-radius: 7px;
+}

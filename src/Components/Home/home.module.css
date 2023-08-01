@@ -1,0 +1,21 @@
+.mainContainer{
+    margin: 0%;
+    padding: 0%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 17%; 
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 0px 10px;
+}
